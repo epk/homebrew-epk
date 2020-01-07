@@ -1,22 +1,22 @@
-cask 'font-sf-mono-powerline' do
+cask 'font-sf-mono-nerd-font' do
   version '15.0d5e1'
-  sha256 '62a0a8a2234b965bbb5daceb7b7612d4e363e391196fd275f0bda6bb22406c5e'
+  sha256 '8621fe412854db2846522c65619e635c8968f64b3341910b5286a95c46aac618'
 
-  url "https://github.com/epk/SF-Mono-Powerline/releases/download/v#{version}/SF-Mono-Powerline.zip"
-  appcast 'https://github.com/epk/SF-Mono-Powerline/releases.atom'
-  name 'SF-Mono-Powerline'
-  homepage 'https://github.com/epk/SF-Mono-Powerline'
+  url "https://github.com/epk/SF-Mono-Nerd-Font/releases/download/v#{version}/SF-Mono-Nerd-Font.zip"
+  appcast 'https://github.com/epk/SF-Mono-Nerd-Font/releases.atom'
+  name 'SF-Mono-Nerd-Font'
+  homepage 'https://github.com/epk/SF-Mono-Nerd-Font'
 
-  font 'SF-Mono-Powerline/SFMono Bold Italic Nerd Font.otf'
-  font 'SF-Mono-Powerline/SFMono Bold Nerd Font.otf'
-  font 'SF-Mono-Powerline/SFMono Heavy Italic Nerd Font.otf'
-  font 'SF-Mono-Powerline/SFMono Heavy Nerd Font.otf'
-  font 'SF-Mono-Powerline/SFMono Light Italic Nerd Font.otf'
-  font 'SF-Mono-Powerline/SFMono Light Nerd Font.otf'
-  font 'SF-Mono-Powerline/SFMono Medium Italic Nerd Font.otf'
-  font 'SF-Mono-Powerline/SFMono Medium Nerd Font.otf'
-  font 'SF-Mono-Powerline/SFMono Regular Italic Nerd Font.otf'
-  font 'SF-Mono-Powerline/SFMono Regular Nerd Font.otf'
-  font 'SF-Mono-Powerline/SFMono Semibold Italic Nerd Font.otf'
-  font 'SF-Mono-Powerline/SFMono Semibold Nerd Font.otf'
+  font 'SF-Mono-Nerd-Font/SFMono Bold Italic Nerd Font Complete.otf'
+  font 'SF-Mono-Nerd-Font/SFMono Bold Nerd Font Complete.otf'
+  font 'SF-Mono-Nerd-Font/SFMono Heavy Italic Nerd Font Complete.otf'
+  font 'SF-Mono-Nerd-Font/SFMono Heavy Nerd Font Complete.otf'
+  font 'SF-Mono-Nerd-Font/SFMono Light Italic Nerd Font Complete.otf'
+  font 'SF-Mono-Nerd-Font/SFMono Light Nerd Font Complete.otf'
+  font 'SF-Mono-Nerd-Font/SFMono Medium Italic Nerd Font Complete.otf'
+  font 'SF-Mono-Nerd-Font/SFMono Medium Nerd Font Complete.otf'
+  font 'SF-Mono-Nerd-Font/SFMono Regular Italic Nerd Font Complete.otf'
+  font 'SF-Mono-Nerd-Font/SFMono Regular Nerd Font Complete.otf'
+  font 'SF-Mono-Nerd-Font/SFMono Semibold Italic Nerd Font Complete.otf'
+  font 'SF-Mono-Nerd-Font/SFMono Semibold Nerd Font Complete.otf'
 end
