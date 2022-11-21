@@ -1,6 +1,6 @@
 cask 'font-sf-mono-nerd-font' do
   version "18.0d1e1.0"
-  sha256 "1240a6757f1f7b5c0bee61afe185ebf8db65c381bf8ae5cc41956950d85184da"
+  sha256 "8d69d7fa7404c59dad161c363c928bab2010aa1f1489642b6e035ca4b4094294"
 
   url "https://github.com/epk/SF-Mono-Nerd-Font/archive/v#{version}.zip"
   appcast 'https://github.com/epk/SF-Mono-Nerd-Font/releases.atom'
