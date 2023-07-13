@@ -3,7 +3,11 @@ cask 'font-sf-mono-nerd-font' do
   sha256 "8d69d7fa7404c59dad161c363c928bab2010aa1f1489642b6e035ca4b4094294"
 
   url "https://github.com/epk/SF-Mono-Nerd-Font/archive/v#{version}.zip"
-  livecheck 'https://github.com/epk/SF-Mono-Nerd-Font/releases.atom'
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   name 'SF-Mono-Nerd-Font'
   homepage 'https://github.com/epk/SF-Mono-Nerd-Font'
 
